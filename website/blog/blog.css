@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+
+}
+
+header{
+	background-image: url(./blog.jpg);
+	height: 170vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+
+}
+
+ul li a{
+	text-decoration: blink;
+	color: 	#fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.7s ease;
+}
+
+ul li a:hover{
+	background-color: green;
+	color: #fff;
+}
+
+.discription{
+	width: 100%;
+	color: #000;
+	position: all;
+}
